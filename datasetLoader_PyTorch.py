@@ -158,8 +158,8 @@ def evaluate_model(model, data_loader, device):
 if __name__ == "__main__":
     data_dir = "output_pileups"  # Change this to your dataset path
     batch_size = 32
-    num_epochs = 10
-    learning_rate = 0.001
+    num_epochs = 100
+    learning_rate = 0.0001
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
